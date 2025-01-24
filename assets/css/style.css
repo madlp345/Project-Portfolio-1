@@ -1,30 +1,73 @@
+body {
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Tinos', sans-serif;
+}
+
 /* Background color */
 .navbar {
     background-color: #333; 
 }
 .navbar-brand img {
-    height: 50px; 
+    height: 100px; 
 }
+/* Styling of the navbar info*/
 .navbar-nav .nav-link {
     color: white !important; 
-    font-size: 18px;
     margin: 0 10px;
+    font-size: 20px;
 }
 .history-section {
     background-color: #222;
     color: white;
-    padding: 50px 0;
     text-align: center;
+    padding: 50px 0;
+    
 }
 .history-item {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 30px;
+    justify-content: center;
 }
+/* Sets the images size and limite the size*/
 .history-item img {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 10px;
     max-width: 600px;
+}
+
+.menu-section {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 50px 0;
+}
+
+.nav-tabs .nav-link{
+    color: white;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #444;
+    color: white;
+}
+
+.menu-content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+.map-container {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    color: white;
+}
+.map-container iframe {
+    width: 100%;
+    max-width: 1000px;
+    border: 0;
+    height: 450px;
 }

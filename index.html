@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
     <!-- Links the main CSS file for the overall site styling -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--- Font import-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -14,20 +18,17 @@
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <!-- Botones de la izquierda -->
             <ul class="navbar-nav me-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">History</a></li>
+                <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
             </ul>
-            
-            <!-- Logo central -->
-            <a class="navbar-brand mx-auto" href="#">
+            <!-- Logo -->
+            <a class="navbar-brand mx-auto" href="index.html">
                 <img src="assets/images/LogoBlanco.png" alt="Logo">
             </a>
             
-            <!-- Botones de la derecha -->
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </div>
@@ -35,7 +36,7 @@
     </header>
  
 
-    <section class="history-section">
+    <section class="history-section" id="history">
       <h2>History</h2>
       <div class="container">
           <div class="row">
@@ -54,10 +55,130 @@
           </div>
       </div>
   </section>
+  <section id="menu" class="menu-section">
+    <h2>Menu</h2>
+    <!-- Menu -->
+    <div class="container">
+    <ul class="nav nav-tabs" id="menuTabs" role="tablist">
+      <li class="nav-item">
+          <a class="nav-link active" id="appetizers-tab" data-bs-toggle="tab" href="#appetizers" role="tab" aria-controls="appetizers" aria-selected="true">Appetizers</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="mains-tab" data-bs-toggle="tab" href="#mains" role="tab" aria-controls="mains" aria-selected="false">Mains</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="salads-tab" data-bs-toggle="tab" href="#salads" role="tab" aria-controls="salads" aria-selected="false">Salads</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="sides-tab" data-bs-toggle="tab" href="#sides" role="tab" aria-controls="sides" aria-selected="false">Sides</a>
+    </li>
+      <li class="nav-item">
+          <a class="nav-link" id="desserts-tab" data-bs-toggle="tab" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false">Desserts</a>
+      </li>
+  </ul>
+  <!-- Appetizers-->
+  <div class="tab-content menu-content">
+    <div class="tab-pane fade show active" id="appetizers" role="tabpanel" aria-labelledby="appetizers-tab">
+        <h3>Hummus</h3>
+        <p>Smoked chickpeas hummus, mixed american cuts, sourdough rye crackers with pumpkin and fennel seeds.</p>
+        <p><strong>$54.000</strong></p>
+        
+        <h3>Croquettes</h3>
+        <p>Smoked beef tenderloin, yellowfin tuna sashimi, ponzu sauce.</p>
+        <p><strong>$44.000</strong></p>
+        
+        <h3>Wood fire langoustines</h3>
+        <p>Sliced Garlic and jalapeño, mixed spices, wood-toasted sourdough bread.</p>
+        <p><strong>$55.000</strong></p>
 
+        <h3>Birria Tacos</h3>
+        <p>Mix of american cuts, smoked chilies and vegetables broth. Pasilla chili and smoked vegetables salsa.</p>
+        <p><strong>3 pcs $38.000</strong></p>
+        <p><strong>4 pcs $44.000</strong></p>
+
+        <h3>Steak tartar</h3>
+        <p>Beef tenderloin pickles, mustard, quail egg yolk, bone marrow and smoked garlic aioli. Native potato, yuca and sweet potato chips</p>
+        <p><strong>$42.000</strong></p>
+
+        <h3>Meatballs</h3>
+        <p>Mix of americans cuts, cherry tomatoes marinated with spices, caramelized onion over wood fire.</p>
+        <p><strong>$60.000</strong></p>
+
+        <h3>Wood fired Eggplant</h3>
+        <p>Caramelized with miso, costeño cheese, citric salad with smoked peaches, dried cranberries, pearl tomatoes and buffalo yogurt sauce.</p>
+        <p><strong>$33.000</strong></p>
+
+      </div>
+      <!-- Mains-->
+      <div class="tab-pane fade" id="mains" role="tabpanel" aria-labelledby="mains-tab">
+          
+        <h3>Wood Fired Catch of the Day </h3>
+        <p>Compressed watermelon, smoked peaches, roasted pineapple, basil, mint, crispy shallot.</p>
+        <p><strong>$85.000</strong></p>
+
+        <h3>Free Range Chicken</h3>
+        <p>Deboned chicken leg, jus, yellow potato, sauteed onion.</p>
+        <p><strong>$76.000</strong></p>
+
+        <h3>Smash burguer</h3>
+        <p>Two slices of 60gr beef, cheddar cheese, cured egg yolk emulsion, house made sauce, smoked bacon, fresh tomatoes.</p>
+        <p><strong>$42.000</strong></p>
+        
+      </div>
+      <!-- Salads-->
+      <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads-tab">
+
+        <h3>Caesar Salad</h3>
+        <p>Grilled lettuce heads, house made caesar vinaigrette, shaved grana padano, croutons. Addition of chicken marinated in 
+          smoked onion and garlic, guajillo and chipotle chilies.</p>
+        <p><strong>$26.000</strong></p>
+        <p><strong>With chicken $39.000</strong></p>
+
+        <h3>House Salad</h3>
+        <p>Asian mix, orange supremes, pistachios, cherry tomatoes, pickled radish and red onions, citric vinaigrette.</p>
+        <p><strong>$29.000</strong></p>
+
+      </div>
+      <!-- Sides -->
+      <div class="tab-pane fade" id="sides" role="tabpanel" aria-labelledby="sides-tab">
+
+        <h3>French Fries with grana padano</h3>
+        <p><strong>$21.000</strong></p>
+        <h3>Wood fired Asparagus</h3>
+        <p><strong>$23.000</strong></p>
+        <h3>Wood fired Sweet Corn with house made ricotta and crispy chili oil</h3>
+        <p><strong>$22.000</strong></p>
+        <h3>Fried Rice</h3>
+        <p><strong>$18.000</strong></p>
+
+
+      </div>
+      <!-- Desserts-->
+      <div class="tab-pane fade" id="desserts" role="tabpanel" aria-labelledby="desserts-tab">
+        <h3>Beets textures</h3>
+        <p>Smoked beet granola, vanilla ice cream, beet gel, mint foam.</p>
+        <p><strong>$27.000</strong></p>
+        <h3>Smoked Banana</h3>
+        <p>Crunchy cinnamon, vanilla ice cream, pastry cream foam, sugared almonds, dulce de leche.</p>
+        <p><strong>$36.000</strong></p>
+        <h3>Spanish Style Cheesecake</h3>
+        <p>Fresh Vanilla bean, smoked red fruits sauce.</p>
+        <p><strong>$36.000</strong></p>
+        <h3>Hot chocolate cake </h3>
+        <p><strong>$24.000</strong></p>
+      </div>
+  </div>
+</div>
+  
+  </section>
+  <section class="map-container">
+    <h2>Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6757229278255!2d-74.05610999999999!3d4.651799200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9be4274fb191%3A0xda510fcc005ddc05!2sTres%20Cuatro%20Cinco%20SteakHouse!5e0!3m2!1sen!2sco!4v1737755225176!5m2!1sen!2sco" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
+    
 
     
 </body>
