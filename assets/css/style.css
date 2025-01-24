@@ -1,0 +1,15 @@
+/* Background color */
+.navbar {
+    background-color: #333; 
+}
+.navbar-brand img {
+    height: 50px; 
+}
+.navbar-nav .nav-link {
+    color: white !important; 
+    font-size: 18px;
+    margin: 0 10px;
+}
+.storyc {
+    background-color: darkgray;
+}
