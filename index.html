@@ -37,200 +37,201 @@
       </nav>
     </header>
  
-
-    <section class="history-section" id="history">
-      <h2>History</h2>
+    <main>
+      <section class="history-section" id="history">
+        <h2>History</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 history-item">
+                    <img src="assets/images/H1.png" alt="Burning forest">
+                </div>
+                <div class="col-md-6 history-item">
+                    <img src="assets/images/H2.png" alt="People around a bonfire">
+                </div>
+                <div class="col-md-6 history-item">
+                    <img src="assets/images/H3.png" alt="Indians cooking some meat">
+                </div>
+                <div class="col-md-6 history-item">
+                    <img src="assets/images/H4.png" alt="Steak over fire">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carousel-section">
+      <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/No1.jpg" class="d-block w-100" alt="Picanha">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/No2.jpg" class="d-block w-100" alt="Croquettes">
+            <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+    
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    
+    
+    <section id="menu" class="menu-section">
+      <h2>Menu</h2>
+      <!-- Menu -->
       <div class="container">
-          <div class="row">
-              <div class="col-md-6 history-item">
-                  <img src="assets/images/H1.png" alt="Burning forest">
-              </div>
-              <div class="col-md-6 history-item">
-                  <img src="assets/images/H2.png" alt="People around a bonfire">
-              </div>
-              <div class="col-md-6 history-item">
-                  <img src="assets/images/H3.png" alt="Indians cooking some meat">
-              </div>
-              <div class="col-md-6 history-item">
-                  <img src="assets/images/H4.png" alt="Steak over fire">
-              </div>
-          </div>
-      </div>
-  </section>
-  <section class="carousel-section">
-    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/images/No1.jpg" class="d-block w-100" alt="Picanha">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/images/No2.jpg" class="d-block w-100" alt="Croquettes">
-          <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-    </div>
-  
-      <!-- Controls -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
-  
-  
-  <section id="menu" class="menu-section">
-    <h2>Menu</h2>
-    <!-- Menu -->
-    <div class="container">
-    <ul class="nav nav-tabs" id="menuTabs" role="tablist">
-      <li class="nav-item">
-          <a class="nav-link active" id="appetizers-tab" data-bs-toggle="tab" href="#appetizers" role="tab" aria-controls="appetizers" aria-selected="true">Appetizers</a>
+      <ul class="nav nav-tabs" id="menuTabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="appetizers-tab" data-bs-toggle="tab" href="#appetizers" role="tab" aria-controls="appetizers" aria-selected="true">Appetizers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="mains-tab" data-bs-toggle="tab" href="#mains" role="tab" aria-controls="mains" aria-selected="false">Mains</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="salads-tab" data-bs-toggle="tab" href="#salads" role="tab" aria-controls="salads" aria-selected="false">Salads</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="sides-tab" data-bs-toggle="tab" href="#sides" role="tab" aria-controls="sides" aria-selected="false">Sides</a>
       </li>
-      <li class="nav-item">
-          <a class="nav-link" id="mains-tab" data-bs-toggle="tab" href="#mains" role="tab" aria-controls="mains" aria-selected="false">Mains</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" id="salads-tab" data-bs-toggle="tab" href="#salads" role="tab" aria-controls="salads" aria-selected="false">Salads</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="sides-tab" data-bs-toggle="tab" href="#sides" role="tab" aria-controls="sides" aria-selected="false">Sides</a>
-    </li>
-      <li class="nav-item">
-          <a class="nav-link" id="desserts-tab" data-bs-toggle="tab" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false">Desserts</a>
-      </li>
-  </ul>
-  <!-- Appetizers-->
-  <div class="tab-content menu-content">
-    <div class="tab-pane fade show active" id="appetizers" role="tabpanel" aria-labelledby="appetizers-tab">
-        <h3>Hummus</h3>
-        <p>Smoked chickpeas hummus, mixed american cuts, sourdough rye crackers with pumpkin and fennel seeds.</p>
-        <p><strong>$54.000</strong></p>
-        
-        <h3>Croquettes</h3>
-        <p>Smoked beef tenderloin, yellowfin tuna sashimi, ponzu sauce.</p>
-        <p><strong>$44.000</strong></p>
-        
-        <h3>Wood fire langoustines</h3>
-        <p>Sliced Garlic and jalapeño, mixed spices, wood-toasted sourdough bread.</p>
-        <p><strong>$55.000</strong></p>
-
-        <h3>Birria Tacos</h3>
-        <p>Mix of american cuts, smoked chilies and vegetables broth. Pasilla chili and smoked vegetables salsa.</p>
-        <p><strong>3 pcs $38.000</strong></p>
-        <p><strong>4 pcs $44.000</strong></p>
-
-        <h3>Steak tartar</h3>
-        <p>Beef tenderloin pickles, mustard, quail egg yolk, bone marrow and smoked garlic aioli. Native potato, yuca and sweet potato chips</p>
-        <p><strong>$42.000</strong></p>
-
-        <h3>Meatballs</h3>
-        <p>Mix of americans cuts, cherry tomatoes marinated with spices, caramelized onion over wood fire.</p>
-        <p><strong>$60.000</strong></p>
-
-        <h3>Wood fired Eggplant</h3>
-        <p>Caramelized with miso, costeño cheese, citric salad with smoked peaches, dried cranberries, pearl tomatoes and buffalo yogurt sauce.</p>
-        <p><strong>$33.000</strong></p>
-
-      </div>
-      <!-- Mains-->
-      <div class="tab-pane fade" id="mains" role="tabpanel" aria-labelledby="mains-tab">
-          
-        <h3>Wood Fired Catch of the Day </h3>
-        <p>Compressed watermelon, smoked peaches, roasted pineapple, basil, mint, crispy shallot.</p>
-        <p><strong>$85.000</strong></p>
-
-        <h3>Free Range Chicken</h3>
-        <p>Deboned chicken leg, jus, yellow potato, sauteed onion.</p>
-        <p><strong>$76.000</strong></p>
-
-        <h3>Smash burguer</h3>
-        <p>Two slices of 60gr beef, cheddar cheese, cured egg yolk emulsion, house made sauce, smoked bacon, fresh tomatoes.</p>
-        <p><strong>$42.000</strong></p>
-        
-      </div>
-      <!-- Salads-->
-      <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads-tab">
-
-        <h3>Caesar Salad</h3>
-        <p>Grilled lettuce heads, house made caesar vinaigrette, shaved grana padano, croutons. Addition of chicken marinated in 
-          smoked onion and garlic, guajillo and chipotle chilies.</p>
-        <p><strong>$26.000</strong></p>
-        <p><strong>With chicken $39.000</strong></p>
-
-        <h3>House Salad</h3>
-        <p>Asian mix, orange supremes, pistachios, cherry tomatoes, pickled radish and red onions, citric vinaigrette.</p>
-        <p><strong>$29.000</strong></p>
-
-      </div>
-      <!-- Sides -->
-      <div class="tab-pane fade" id="sides" role="tabpanel" aria-labelledby="sides-tab">
-
-        <h3>French Fries with grana padano</h3>
-        <p><strong>$21.000</strong></p>
-        <h3>Wood fired Asparagus</h3>
-        <p><strong>$23.000</strong></p>
-        <h3>Wood fired Sweet Corn with house made ricotta and crispy chili oil</h3>
-        <p><strong>$22.000</strong></p>
-        <h3>Fried Rice</h3>
-        <p><strong>$18.000</strong></p>
-
-
-      </div>
-      <!-- Desserts-->
-      <div class="tab-pane fade" id="desserts" role="tabpanel" aria-labelledby="desserts-tab">
-        <h3>Beets textures</h3>
-        <p>Smoked beet granola, vanilla ice cream, beet gel, mint foam.</p>
-        <p><strong>$27.000</strong></p>
-        <h3>Smoked Banana</h3>
-        <p>Crunchy cinnamon, vanilla ice cream, pastry cream foam, sugared almonds, dulce de leche.</p>
-        <p><strong>$36.000</strong></p>
-        <h3>Spanish Style Cheesecake</h3>
-        <p>Fresh Vanilla bean, smoked red fruits sauce.</p>
-        <p><strong>$36.000</strong></p>
-        <h3>Hot chocolate cake </h3>
-        <p><strong>$24.000</strong></p>
-      </div>
-  </div>
-</div>
-  
-  </section>
-  <section class="map-container">
-    <h2>Location</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6757229278255!2d-74.05610999999999!3d4.651799200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9be4274fb191%3A0xda510fcc005ddc05!2sTres%20Cuatro%20Cinco%20SteakHouse!5e0!3m2!1sen!2sco!4v1737755225176!5m2!1sen!2sco" 
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
-  <section >
-    <ul id="social-net">
-      <li>
-          <a href="https://www.facebook.com/trescuatrocincoBta/" target="_blank" rel="noopener"
-              aria-label="Visit our Facebook page (opens in a new tab)">
-              <i class="fa-brands fa-facebook"></i></a>
-      </li>
-      <li>
-          <a href="https://www.tiktok.com/place/Tres-Cuatro-Cinco-SteakHouse-21568226271837253" target="_blank" rel="noopener"
-              aria-label="Visit our TikTok page (opens in a new tab)">
-              <i class="fa-brands fa-tiktok"></i></a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/trescuatrocincobta/" target="_blank" rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)">
-            <i class="fa-brands fa-instagram"></i></a>
-      </li>
-      <li>
-          <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-              aria-label="Visit our YouTube page (opens in a new tab)">
-              <i class="fa-brands fa-youtube-square"></i></a>
-      </li>
-      
+        <li class="nav-item">
+            <a class="nav-link" id="desserts-tab" data-bs-toggle="tab" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false">Desserts</a>
+        </li>
     </ul>
-  </section>  
+    <!-- Appetizers-->
+    <div class="tab-content menu-content">
+      <div class="tab-pane fade show active" id="appetizers" role="tabpanel" aria-labelledby="appetizers-tab">
+          <h3>Hummus</h3>
+          <p>Smoked chickpeas hummus, mixed american cuts, sourdough rye crackers with pumpkin and fennel seeds.</p>
+          <p><strong>$54.000</strong></p>
+          
+          <h3>Croquettes</h3>
+          <p>Smoked beef tenderloin, yellowfin tuna sashimi, ponzu sauce.</p>
+          <p><strong>$44.000</strong></p>
+          
+          <h3>Wood fire langoustines</h3>
+          <p>Sliced Garlic and jalapeño, mixed spices, wood-toasted sourdough bread.</p>
+          <p><strong>$55.000</strong></p>
+
+          <h3>Birria Tacos</h3>
+          <p>Mix of american cuts, smoked chilies and vegetables broth. Pasilla chili and smoked vegetables salsa.</p>
+          <p><strong>3 pcs $38.000</strong></p>
+          <p><strong>4 pcs $44.000</strong></p>
+
+          <h3>Steak tartar</h3>
+          <p>Beef tenderloin pickles, mustard, quail egg yolk, bone marrow and smoked garlic aioli. Native potato, yuca and sweet potato chips</p>
+          <p><strong>$42.000</strong></p>
+
+          <h3>Meatballs</h3>
+          <p>Mix of americans cuts, cherry tomatoes marinated with spices, caramelized onion over wood fire.</p>
+          <p><strong>$60.000</strong></p>
+
+          <h3>Wood fired Eggplant</h3>
+          <p>Caramelized with miso, costeño cheese, citric salad with smoked peaches, dried cranberries, pearl tomatoes and buffalo yogurt sauce.</p>
+          <p><strong>$33.000</strong></p>
+
+        </div>
+        <!-- Mains-->
+        <div class="tab-pane fade" id="mains" role="tabpanel" aria-labelledby="mains-tab">
+            
+          <h3>Wood Fired Catch of the Day </h3>
+          <p>Compressed watermelon, smoked peaches, roasted pineapple, basil, mint, crispy shallot.</p>
+          <p><strong>$85.000</strong></p>
+
+          <h3>Free Range Chicken</h3>
+          <p>Deboned chicken leg, jus, yellow potato, sauteed onion.</p>
+          <p><strong>$76.000</strong></p>
+
+          <h3>Smash burguer</h3>
+          <p>Two slices of 60gr beef, cheddar cheese, cured egg yolk emulsion, house made sauce, smoked bacon, fresh tomatoes.</p>
+          <p><strong>$42.000</strong></p>
+          
+        </div>
+        <!-- Salads-->
+        <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads-tab">
+
+          <h3>Caesar Salad</h3>
+          <p>Grilled lettuce heads, house made caesar vinaigrette, shaved grana padano, croutons. Addition of chicken marinated in 
+            smoked onion and garlic, guajillo and chipotle chilies.</p>
+          <p><strong>$26.000</strong></p>
+          <p><strong>With chicken $39.000</strong></p>
+
+          <h3>House Salad</h3>
+          <p>Asian mix, orange supremes, pistachios, cherry tomatoes, pickled radish and red onions, citric vinaigrette.</p>
+          <p><strong>$29.000</strong></p>
+
+        </div>
+        <!-- Sides -->
+        <div class="tab-pane fade" id="sides" role="tabpanel" aria-labelledby="sides-tab">
+
+          <h3>French Fries with grana padano</h3>
+          <p><strong>$21.000</strong></p>
+          <h3>Wood fired Asparagus</h3>
+          <p><strong>$23.000</strong></p>
+          <h3>Wood fired Sweet Corn with house made ricotta and crispy chili oil</h3>
+          <p><strong>$22.000</strong></p>
+          <h3>Fried Rice</h3>
+          <p><strong>$18.000</strong></p>
+
+
+        </div>
+        <!-- Desserts-->
+        <div class="tab-pane fade" id="desserts" role="tabpanel" aria-labelledby="desserts-tab">
+          <h3>Beets textures</h3>
+          <p>Smoked beet granola, vanilla ice cream, beet gel, mint foam.</p>
+          <p><strong>$27.000</strong></p>
+          <h3>Smoked Banana</h3>
+          <p>Crunchy cinnamon, vanilla ice cream, pastry cream foam, sugared almonds, dulce de leche.</p>
+          <p><strong>$36.000</strong></p>
+          <h3>Spanish Style Cheesecake</h3>
+          <p>Fresh Vanilla bean, smoked red fruits sauce.</p>
+          <p><strong>$36.000</strong></p>
+          <h3>Hot chocolate cake </h3>
+          <p><strong>$24.000</strong></p>
+        </div>
+    </div>
+  </div>
+    
+    </section>
+    <section class="map-container">
+      <h2>Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6757229278255!2d-74.05610999999999!3d4.651799200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9be4274fb191%3A0xda510fcc005ddc05!2sTres%20Cuatro%20Cinco%20SteakHouse!5e0!3m2!1sen!2sco!4v1737755225176!5m2!1sen!2sco" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section >
+      <ul id="social-net">
+        <li>
+            <a href="https://www.facebook.com/trescuatrocincoBta/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)">
+                <i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://www.tiktok.com/place/Tres-Cuatro-Cinco-SteakHouse-21568226271837253" target="_blank" rel="noopener"
+                aria-label="Visit our TikTok page (opens in a new tab)">
+                <i class="fa-brands fa-tiktok"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/trescuatrocincobta/" target="_blank" rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)">
+              <i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)">
+                <i class="fa-brands fa-youtube-square"></i></a>
+        </li>
+        
+      </ul>
+    </section>  
+  </main>
   <footer>
     <!-- Column 1-->
     <div class="footer-column">
