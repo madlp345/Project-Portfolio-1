@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tres Cuatro Cinco Steakhouse</title>
+    <!--- Bootstrap-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
     <!-- Links the main CSS file for the overall site styling -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -56,6 +57,36 @@
           </div>
       </div>
   </section>
+  <section class="carousel-section">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/No1.jpg" class="d-block w-100" alt="Imagen 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Picanha</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/No2.jpg" class="d-block w-100" alt="Imagen 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Croquettes</h5>
+        </div>
+      </div>
+    </div>
+  
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+  
+  
   <section id="menu" class="menu-section">
     <h2>Menu</h2>
     <!-- Menu -->
