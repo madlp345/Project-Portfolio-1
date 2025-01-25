@@ -38,6 +38,18 @@ body {
     margin: 10px;
     max-width: 600px;
 }
+/* Styling of the carousel section*/
+.carousel-section {
+width: 100%;
+height: 80vh; 
+overflow: hidden;
+}
+
+.carousel-item img {
+object-fit: cover; 
+height: 80vh;
+}
+
 /*Menu section*/
 .menu-section {
     text-align: center;
@@ -133,3 +145,12 @@ footer {
     color: red;
     text-decoration: underline;
 }
+
+
+/*Gallery*/
+
+.gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
