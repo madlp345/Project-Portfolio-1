@@ -1,3 +1,4 @@
+
 body {
     /* Generic project styles */
     color: #3a3a3a;
@@ -37,7 +38,7 @@ body {
     margin: 10px;
     max-width: 600px;
 }
-
+/*Menu section*/
 .menu-section {
     text-align: center;
     background-color: #111;
@@ -59,6 +60,7 @@ body {
     padding: 20px;
     border-radius: 5px;
 }
+/*map settings*/
 .map-container {
     text-align: center;
     padding: 50px 0;
@@ -70,4 +72,64 @@ body {
     max-width: 1000px;
     border: 0;
     height: 450px;
+}
+/* Social networs*/
+#social-net {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-net i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-column h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-column p,
+.footer-column a {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.highlight {
+    color: red;
+    font-size: 16px;
+}
+
+.highlight a {
+    color: red;
+    text-decoration: underline;
 }
