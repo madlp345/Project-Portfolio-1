@@ -80,86 +80,114 @@ height: 80vh;
     color: white;
 }
 .map-container iframe {
-    width: 100%;
-    max-width: 1000px;
-    border: 0;
-    height: 450px;
+width: 100%;
+max-width: 1000px;
+border: 0;
+height: 450px;
 }
 /* Social networs*/
 #social-net {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+text-align: center;
+padding: 20px 0;
+display: flex;
+justify-content: space-evenly;
+list-style-type: none;
 }
 
 #social-net i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
+font-size: 160%;
+padding: 5%;
+color: #3a3a3a;
 }
 /*Footer*/
 footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-    background-color: #000;
-    color: #fff;
+display: flex;
+justify-content: space-between;
+padding: 20px 50px;
+background-color: #000;
+color: #fff;
 }
 
 .footer-column {
-    flex: 1;
-    padding: 10px;
+flex: 1;
+padding: 10px;
 }
 
 .footer-column h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+font-size: 20px;
+margin-bottom: 10px;
+text-transform: uppercase;
 }
 
 .footer-column p,
 .footer-column a {
-    font-size: 14px;
-    line-height: 1.8;
-    color: #fff;
-    text-decoration: none;
+font-size: 14px;
+line-height: 1.8;
+color: #fff;
+text-decoration: none;
 }
 
 .footer-column a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .footer-column img {
-    max-width: 100%;
-    height: auto;
+max-width: 100%;
+height: auto;
 }
 
 .highlight {
-    color: red;
-    font-size: 16px;
+color: red;
+font-size: 16px;
 }
 
 .highlight a {
-    color: red;
-    text-decoration: underline;
+color: red;
+text-decoration: underline;
 }
 
 
 /*Gallery*/
 .my-5 {
-    background-color: #3a3a3a; 
-    color: white;
-    padding: 20px 0;
-    margin: 0;
+background-color: #3a3a3a; 
+color: white;
+padding: 20px 0;
+margin: 0;
 }
 
 /*Contact*/
 .phbackground {
-    background: src="assets/images/bgf.jpg" no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+background: src="assets/images/bgf.jpg" no-repeat center center/cover;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.form-container {
+background: rgba(0, 0, 0, 0.6);
+padding: 20px;
+border-radius: 10px;
+color: white;
+max-width: 350px;
+}
+.form-check-label {
+color: white;
+}
+.btn-custom {
+background-color: gold;
+color: black;
+border: none;
+}
+.btn-custom:hover {
+background-color: darkgoldenrod;
+}
+
+.background-img {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1; 
 }
