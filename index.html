@@ -18,21 +18,30 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
-                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-            </ul>
+            <!-- Toggler for smaller screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars"></i>  
+            </button>
+            
             <!-- Logo -->
             <a class="navbar-brand mx-auto" href="index.html">
-                <img src="assets/images/logoblanco.png" alt="Logo">
+                <img src="assets/images/logoblanco.png" alt="Logo" style="height: 50px;">
             </a>
             
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                </ul>
+                
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
       </nav>
     </header>
