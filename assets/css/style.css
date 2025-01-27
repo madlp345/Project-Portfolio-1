@@ -25,9 +25,15 @@ body {
 }
 .navbar-toggler {
     border-color: #fff;
+    border: none;
+    background-color: transparent;
+}
+.navbar-toggler .fa-bars {
+    font-size: 1.5rem;
+    color: white;
 }
 .navbar-toggler-icon {
-    background-color: #fff;
+    display: none;
 }
 .history-section {
     background-color: #222;
