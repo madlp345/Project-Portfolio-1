@@ -1,53 +1,66 @@
-
 body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Tinos', sans-serif;
 }
 
+
 /* Background color */
 .navbar {
-    background-color: #333; 
+    background-color: #333;
 }
+
 .navbar-brand img {
-    height: 100px; 
+    height: 100px;
 }
+
 /* Styling of the navbar info*/
 .navbar-nav .nav-link {
-    color: white !important; 
+    color: white !important;
     margin: 0 10px;
     font-size: 20px;
 }
+
 .navbar-nav .nav-link:hover {
     color: #000;
     background-color: #ffc107;
     border-radius: 5px;
 }
+
 .navbar-toggler {
     border-color: #fff;
     border: none;
     background-color: transparent;
 }
+
 .navbar-toggler .fa-bars {
     font-size: 1.5rem;
     color: white;
 }
+
 .navbar-toggler-icon {
     display: none;
 }
+
+.activ {
+    border-bottom: 2px solid white;
+}
+
 .history-section {
-    background-color: #222;
-    color: white;
+    background-color: #f1f2f2;
+    color: #222;
     text-align: center;
     padding: 50px 0;
-    
+
 }
+
 .history-item {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
     justify-content: center;
 }
+
 /* Sets the images size and limite the size*/
 .history-item img {
     width: 90%;
@@ -55,16 +68,17 @@ body {
     margin: 10px;
     max-width: 600px;
 }
+
 /* Styling of the carousel section*/
 .carousel-section {
-width: 100%;
-height: 80vh; 
-overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
 }
 
 .carousel-item img {
-object-fit: cover; 
-height: 80vh;
+    object-fit: cover;
+    height: 80vh;
 }
 
 /*Menu section*/
@@ -75,7 +89,7 @@ height: 80vh;
     padding: 50px 0;
 }
 
-.nav-tabs .nav-link{
+.nav-tabs .nav-link {
     color: white;
 }
 
@@ -89,6 +103,7 @@ height: 80vh;
     padding: 20px;
     border-radius: 5px;
 }
+
 /*map settings*/
 .map-container {
     text-align: center;
@@ -96,129 +111,136 @@ height: 80vh;
     background-color: #333;
     color: white;
 }
+
 .map-container iframe {
-width: 100%;
-max-width: 1000px;
-border: 0;
-height: 450px;
+    width: 100%;
+    max-width: 1000px;
+    border: 0;
+    height: 450px;
 }
+
 /* Social networs*/
 #social-net {
-text-align: center;
-padding: 20px 0;
-display: flex;
-justify-content: space-evenly;
-list-style-type: none;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 #social-net i {
-font-size: 160%;
-padding: 5%;
-color: #3a3a3a;
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
+
 #social-net li a {
     font-size: 24px;
-    color: white; 
+    color: white;
     text-decoration: none;
 }
 
 
 /*Footer*/
 footer {
-display: flex;
-justify-content: space-between;
-padding: 20px 50px;
-background-color: #000;
-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #000;
+    color: #fff;
 }
 
 .footer-column {
-flex: 1;
-padding: 10px;
+    flex: 1;
+    padding: 10px;
 }
 
 .footer-column h2 {
-font-size: 20px;
-margin-bottom: 10px;
-text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .footer-column p,
 .footer-column a {
-font-size: 14px;
-line-height: 1.8;
-color: #fff;
-text-decoration: none;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    text-decoration: none;
 }
 
 .footer-column a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 .footer-column img {
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .highlight {
-color: red;
-font-size: 16px;
+    color: red;
+    font-size: 16px;
 }
 
 .highlight a {
-color: red;
-text-decoration: underline;
+    color: red;
+    text-decoration: underline;
 }
 
 
 /*Gallery*/
 .gll-s {
-background-color: #3a3a3a; 
-color: white;
-padding: 20px 0;
-margin: 0;
+    background-color: #3a3a3a;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
 
 }
 
-.gll-s h2{
-    text-transform:uppercase ;
+.gll-s h2 {
+    text-transform: uppercase;
 }
 
 /*Contact*/
 .phbackground {
-background: src="assets/images/bgf.jpg" no-repeat center center/cover;
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
+    background: src="assets/images/bgf.jpg"no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .form-container {
-background: rgba(0, 0, 0, 0.6);
-padding: 40px;
-width: 50%;
-max-width: 600px;
-margin-left:0;
-border-radius: 10px;
-color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    width: 50%;
+    max-width: 600px;
+    margin-left: 0;
+    border-radius: 10px;
+    color: white;
 }
+
 .form-check-label {
-color: white;
+    color: white;
 }
+
 .btn-custom {
-background-color: gold;
-color: black;
-border: none;
+    background-color: gold;
+    color: black;
+    border: none;
 }
+
 .btn-custom:hover {
-background-color: darkgoldenrod;
+    background-color: darkgoldenrod;
 }
 
 .background-img {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-object-fit: cover;
-z-index: -1; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
