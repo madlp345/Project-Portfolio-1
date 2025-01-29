@@ -1,65 +1,69 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-# Project Title: Project Portfolio 1
+# Tres Cuatro Cinco Steakhouse
 
-A brief description of your project, its purpose, and the problem it aims to solve.
+Tres Cuatro Cinco Steakhouse is an actual restaurant-based in Bogotá, Colombia. The restaurant, being a steakhouse, specializes in meats, with its main differentiating feature being that all dishes are prepared on a grill that operates 100% with wood fire, which imparts a unique and distinctive flavor.
+The purpose of the website is to showcase some of the dishes and the spaces available so that individuals interested in hosting events at the restaurant can learn more about the venue and provide their contact information to be reached.
 
 ---
+![Am I Responsive photo of the page](image.png)
 
+Tres Cuatro Cinco Steakhouse website is live, to access it click <a href="https://8000-madlp345-projectportfol-wxb5viruc1k.ws.codeinstitute-ide.net/" target="_blank">here</a>.
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [User Experience (UX)](#user-experience-ux)
+
+1. [User Experience (UX)](#user-experience-ux)
     - [User Stories](#user-stories)
     - [Design](#design)
-3. [Features](#features)
-4. [Technologies Used](#technologies-used)
-5. [Testing](#testing)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
-8. [Acknowledgments](#acknowledgments)
-
----
-
-## Overview
-
-**Project Portfolio 1** is an introductory project designed to demonstrate foundational skills in web development. The project is a responsive and interactive website built as part of the [Code Institute's Full-Stack Developer Program](https://codeinstitute.net/).
-
-This project aims to provide a solution for showcasing portfolios, blogs, or business websites in a visually appealing, user-friendly format.
-
-### Purpose
-- To demonstrate HTML, CSS, and basic JavaScript skills.
-- To create a fully responsive website.
-- To follow best practices in UX/UI design.
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+7. [Acknowledgments](#acknowledgments)
 
 ---
 
 ## User Experience (UX)
 
-### User Stories
+#### Site Purpose:
+To serve as a valuable resource for individuals seeking information about the restaurant, its unique offerings, and its event-hosting capabilities.
+#### Site Goal:
+To provide users with essential information about the restaurant, including its menu, ambiance, and unique wood-fire cooking process. Additionally, the website offers a visually appealing gallery of dishes and spaces, along with convenient contact information and a user-friendly form for making reservations or inquiring about hosting events at the venue.
+#### Audience:
+The website targets food enthusiasts, event planners, and individuals or groups looking to enjoy premium grilled dishes or host special events in a unique and inviting setting.
+Current User Goals:
+•	Staying up to date with new menu items or special announcements from the restaurant.
+#### New User Goals:
+•	Gain a general understanding of the restaurant’s concept, cooking methods, and atmosphere.
+•	Explore the menu and view the gallery of dishes and event spaces.
+•	Contact the restaurant by submitting a form or using the contact details provided on the website.
+•	Access the restaurant’s social media to stay informed about updates and promotions.
 
-#### As a Visitor:
-- I want to navigate easily through the website.
-- I want to learn about the portfolio or business.
-- I want to access the website seamlessly on any device.
-
-#### As the Website Owner:
-- I want to showcase my work or services.
-- I want my website to be visually appealing and professional.
-- I want my website to be easy to update.
 
 ---
 
 ### Design
 
 #### Color Scheme:
-- Main Color: #333 (Dark gray for text and headers)
-- Accent Color: #ff4500 (Orange for call-to-action buttons and hover effects)
+<div align ="center">
+  <img src="assets/images/345coolors.png" alt="Coolors Resume" >
+</div>
+<img src="assets/images/345coolors.png" alt="Coolors Resume" >
+Colour Scheme
+As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. Black, white, and shades of grey create a classic and modern aesthetic, ensuring readability and contrast.
+
+In my CSS file, I have used variables to declare colours and then used these throughout the file. I was recently introduced to this method during a hackathon—it is a useful convention as it allows you to alter the colour throughout the website by changing it once in the variable.
+
+I have used #FFFFFF & #000000 as the primary and secondary colours for the site's text.
+I have used #333333 as the overlay over the site's background image.
+I have used #F1F2F2 for subtle highlights and backgrounds.
+This minimalist palette ensures a professional and cohesive design.
 
 #### Typography:
 - **Font Family**: Tinos (imported from Google Fonts)
 
-#### Wireframes:
-Include wireframes or link to tools like Figma, Adobe XD, or Balsamiq used to create the initial design. You can upload screenshots here.
+#### Imagery:
+All images on the website were sourced directly from the restaurant. 
 
 ---
 
@@ -67,12 +71,36 @@ Include wireframes or link to tools like Figma, Adobe XD, or Balsamiq used to cr
 
 ### Existing Features
 1. **Navigation Bar**:
-    - Fully responsive with a collapsible menu for smaller screens.
-    - Includes links to all sections of the website.
 
-2. **Hero Section**:
-    - Eye-catching hero image with overlay text and a call-to-action button.
+    ![Navbart](image-5.png)
 
+    The website features a fixed and consistent navigation bar across all pages, including the landing form page. Users can access the menu at any time, even after submitting the form, allowing them to continue exploring the site. Additionally, the active page is highlighted in the navigation bar, making it easier for visitors to identify their current location and ensuring smooth navigation.
+
+  ![Menu dropdown](image-4.png)
+
+    Additionally, I created a simple hamburger menu dropdown for screen widths of 968px or less, acknowledging online forums, and tutorials in the credits section. This enhancement improves the website's accessibility on smaller devices and ensures seamless navigation.
+
+2. **Home Page**:
+
+    The homepage serves as an engaging introduction to the restaurant's offerings. It features a visually appealing layout with high-quality images of signature dishes, creating an inviting atmosphere for visitors.
+    ![Photos carousel](image-3.png)
+
+    Upon scrolling, you will encounter the history section that provides a narrative about the origins and evolution of Tres Cuatro Cinco Steakhouse. Accompanied by evocative images, it offers visitors insight into the restaurant's background and culinary philosophy.
+    ![History](image-6.png)
+
+    The next section is the menu that is organized into categories including:
+<ul>Appetizers</ul>
+
+
+Mains
+</ul>
+Salads
+</lu>
+Sides
+</lu>
+Desserts
+</lu>
+Each item is presented with a detailed description and price, allowing patrons to peruse the diverse culinary offerings.
 3. **Gallery**:
     - Interactive image gallery showcasing portfolio pieces.
 
