@@ -73,39 +73,50 @@ All images on the website were sourced directly from the restaurant.
 
 1. **Navigation Bar** <br>
    ![Navbar photo](assets/images/navbar.png) <br>
+
    -The website features a fixed and consistent navigation bar across all pages, including the landing form page. Users can access the menu at any time, even after submitting the form, allowing them to continue exploring the site. Additionally, the active page is highlighted in the navigation bar, making it easier for visitors to identify their current location and ensure smooth navigation.
+
     ![Hamburguer Drop Menu](assets/images/hamdrop.png) <br>
-    -Additionally, I created a simple hamburger menu dropdown for screen widths of 968px or less, acknowledging online forums, and tutorials in the credits section. This enhancement improves the website's accessibility on smaller devices and ensures seamless navigation.
+    -Additionally, I created a simple hamburger menu dropdown for screen widths of 968px or less, acknowledging online forums, and tutorials in the credits section. This enhancement improves the website's accessibility on smaller devices and ensures seamless navigation. <br>
 
 2. **Home Page**
-   - High-quality images of signature dishes.
-   - **History Section**: Narrative of the restaurant’s origins.
-     ![History](image-6.png)
+   - The homepage serves as an engaging introduction to the restaurant's offerings. It features a visually appealing layout with high-quality images of signature dishes, creating an inviting atmosphere for visitors.
+   ![Some dishes carousel](assets/images/sec1ph.png)
+   - **History Section**:
+   - Upon scrolling, you will encounter the history section that provides a narrative about the origins and evolution of Tres Cuatro Cinco Steakhouse. Accompanied by evocative images, it offers visitors insight into the restaurant's background and culinary philosophy.
+     ![History](assets/images/sec2his.png)
    - **Menu Section**: Organized into categories:
      - Appetizers
      - Mains
      - Salads
      - Sides
      - Desserts
+     ![Menu](assets/images/sec3men.png)
    - **Map Section**: Displays restaurant location.
+    ![Menu](assets/images/sec4loc.png)
    - **Social Media Links**: Directs users to restaurant’s profiles.
-
+    ![Menu](assets/images/sec5soc.png)
+   - **Footer**: Shows the logo, number of contact and directs to the contact page.
+    ![Menu](assets/images/footer.png)
 3. **Gallery Page**
-   - Three different photo carousels showcasing food, place, and drinks.
-   - Uses Bootstrap for responsiveness.
-
+   - The purpose of this page is to showcase the food, place and drinks that the restaurant offers. It provides a three different photos carousel of these three segments. Given the extensive number of photos provided by the restaurant, it was better to use these carousels with bootstraps.
+    ![Menu](assets/images/carousel1.png)
 4. **Contact Form**
    - Allows users to provide:
      - First Name
      - Last Name
      - Email
      - Phone Number
+     ![Menu](assets/images/form.png)
    - **Form Sent Page**: Confirmation message after submission.
-
+      ![Menu](assets/images/formval.png)
 ### Future Features
-- Blog section integration.
-- Dark mode toggle.
-- Newsletter subscription feature.
+This project represents a prototype website for the restaurant that wants to improve its actual website in the next few months. As a result, there are some specifics that are planned to be implemented soon:
+ -Multilingual support
+ -Online reservation system
+ -Customer reviews and ratings
+ -Blog section
+ -Dark mode toggle
 
 ---
 
@@ -119,8 +130,11 @@ All images on the website were sourced directly from the restaurant.
 
 ### Validator Testing
 - **HTML Validator**: Issue with `.fa-rotate-by` class (not used in project but flagged by validator).
+![Menu](assets/images/w3cp.png)
 - **CSS Validator**: Passed all checks.
+![Menu](assets/images/cssval.png)
 - **Lighthouse Accessibility Score**: Excellent.
+![Menu](assets/images/lighou.png)
 - **Cross-Browser Testing**: Works in Chrome, Safari, and Mozilla.
 - **No broken links** found.
 
@@ -162,8 +176,10 @@ The site was deployed to **GitHub Pages**.
 ## Credits
 
 ### Design
-- The restaurant provided all content information.
-- Inspired by other restaurant websites.
+The restaurant provided all the information regarding the content information. The design of the page was inspired by the actual website of the restaurant and other restaurants websites including:
+<a href="https://elchato.co/" target="_blank">El Chato</a>.
+<a href="https://takami.co/la-fama-bbq/?show_welcome" target="_blank">La Fama</a>.
+
 
 ### Code
 - Mentor **Jubril Akolade** recommended using Bootstrap.
