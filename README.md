@@ -133,7 +133,7 @@ This project represents a prototype website for the restaurant that wants to imp
 ![Menu](assets/images/w3cp.png)
 - **CSS Validator**: Passed all checks.
 ![Menu](assets/images/cssval.png)
-- **Lighthouse Accessibility Score**: Excellent.
+- **Lighthouse Accessibility Score**: •	Page has an excellent Accessibility rating in Lighthouse.<br>
 ![Menu](assets/images/lighou.png)
 - **Cross-Browser Testing**: Works in Chrome, Safari, and Mozilla.
 - **No broken links** found.
