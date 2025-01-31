@@ -65,6 +65,11 @@ As the pages of the site have a background image, the color scheme was kept mini
 ### Imagery
 All images on the website were sourced directly from the restaurant.
 
+### Wireframes
+Wireframes were created for mobile, tablet and desktop using balsamiq.
+![Menu](assets/images/balsamiq1.png)
+![Menu](assets/images/balsamiq2.png)
+![Menu](assets/images/balsamiq3.png)
 ---
 
 ## Features
@@ -138,6 +143,29 @@ This project represents a prototype website for the restaurant that wants to imp
 - **Cross-Browser Testing**: Works in Chrome, Safari, and Mozilla.
 - **No broken links** found.
 
+## Manual Testing
+
+The following table outlines the manual testing performed for the portfolio website:
+
+| Test Case | Steps to Reproduce | Expected Result | Actual Result | Status (Pass/Fail) |
+|-----------|-------------------|----------------|--------------|----------------|
+| **Navigation Links** | Click on each menu link (Home, Projects, About, Contact) | Redirects to the correct section/page |  Works correctly | Pass |
+| **Mobile Responsiveness** | Open the site on a mobile device or use browser DevTools (`Ctrl + Shift + I`) | Layout adapts properly, no overlapping elements |  Responsive on mobile | Pass |
+| **Project Links** | Click on each project thumbnail/link | Opens the correct project details or external link |  Links work correctly | Pass |
+| **Contact Form Submission** | Enter valid name, email, and message, then click submit | Success message or redirection |  Confirmation message appears | Pass |
+| **Invalid Contact Form Inputs** | Leave required fields empty and try submitting | Requery message  |  Please fill out this field | Pass |
+| **Page Load Speed** | Load the site in an incognito window and measure loading time | Page loads within 3 seconds |  Loads quickly | Pass |
+| **Broken Links Check** | Click all links and buttons | No broken links or 404 errors |  No broken links found | Pass |
+
+### **Issues Identified**
+1. **Contact Form Issues:** No confirmation message or validation errors.
+2. **Possible Fix:** Implement front-end validation and success messages.
+
+---
+
+This table ensures transparency in testing and highlights necessary improvements. Let me know if you want to refine it further! 🚀
+
+
 ### Unfixed Bugs
 - Hover effects not functioning on some older browsers.
 
@@ -157,6 +185,7 @@ This project represents a prototype website for the restaurant that wants to imp
 - **GitHub** – Repository hosting.
 - **Am I Responsive?** – Responsive design testing.
 - **Bootstrap 5** – Responsive design framework.
+- **Balsamiq** – Wireframe design.
 
 ---
 
