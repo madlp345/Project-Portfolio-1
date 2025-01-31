@@ -67,9 +67,9 @@ All images on the website were sourced directly from the restaurant.
 
 ### Wireframes
 Wireframes were created for mobile, tablet and desktop using balsamiq.
-![Menu](assets/images/balsamiq1.png)
-![Menu](assets/images/balsamiq2.png)
-![Menu](assets/images/balsamiq3.png)
+![Menu](assets/images/balsamiq1.jpg)
+![Menu](assets/images/balsamiq2.jpg)
+![Menu](assets/images/balsamiq3.jpg)
 ---
 
 ## Features
