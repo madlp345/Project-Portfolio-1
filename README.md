@@ -8,7 +8,7 @@ The purpose of the website is to showcase some of the dishes and the spaces avai
 
 ---
 
-![Am I Responsive photo of the page](image.png)
+(![Am I Responsive photo of the page](image.png))
 
 Tres Cuatro Cinco Steakhouse website is live, to access it click [here](https://8000-madlp345-projectportfol-wxb5viruc1k.ws.codeinstitute-ide.net/).
 
